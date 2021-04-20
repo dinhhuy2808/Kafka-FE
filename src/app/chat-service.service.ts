@@ -9,7 +9,7 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class ChatServiceService {
 
-  private roomsUrl = 'http://localhost:8080/api/room/';  // URL to web API
+  private roomsUrl = 'http://localhost:8113/api/room/';  // URL to web API
 
   constructor(private http: Http) { }
 

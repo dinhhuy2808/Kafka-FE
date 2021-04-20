@@ -119,7 +119,7 @@
 			<ng-container  *ngFor="let msg of messages">
 				<li [ngClass]="user != msg.user ? 'you' : 'me'">
 					<div class="entete">
-						<span class="status" [ngClass]="user != msg.user ? 'green' : 'blue'">></span>
+						<span class="status" [ngClass]="user != msg.user ? 'green' : 'blue'"></span>
 						<h2>{{msg.user}}</h2>
 						<h3>{{msg.time}}</h3>
 					</div>
